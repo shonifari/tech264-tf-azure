@@ -1,0 +1,15 @@
+# To avoid bloat
+.terraform/
+
+# Most importatn to avoid
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+# Variables files
+*.tfvars
+*.auto.tfvars
+variable.tf
+
+# Override files
+override.tj
+override.tj.json
